@@ -1,0 +1,32 @@
+{
+  "esquema": 1,
+  "ferramenta": "Gerenciador de Ambientes",
+  "versao": "2.7.0",
+  "canal": "estavel",
+  "publicado_em": "2026-09-04T17:11:24Z",
+  "obrigatoria": false,
+  "minima_suportada": "0.0.0",
+  "arquivo": {
+    "nome": "GerenciadorAmbientes_v2.7.0.zip",
+    "exe": "GerenciadorAmbientes.exe",
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.7.0/GerenciadorAmbientes_v2.7.0.zip",
+    "sha256": "95d9ee0f48122400fc6986953573b295180d392622dfaffe836dea9402c9c0e8",
+    "tamanho": 30914934
+  },
+  "changelog": [
+    "O programa verifica sozinho se ha versao nova, baixa em espera e troca na proxima abertura.",
+    "Atualizacao automatica pode ser desligada; \"Verificar agora\" continua valendo com ela desligada.",
+    "Da para voltar a versao anterior enquanto a copia antiga estiver no disco.",
+    "Cada ambiente tem seus proprios botoes: executar um nao trava mais os outros. Pedir execucao em dois poe o segundo numa fila, que mostra a posicao na lista e deixa sair dela.",
+    "Enquanto um ambiente executa, da para subir, parar ou editar outro normalmente.",
+    "So a ultima versao baixada fica no disco. As anteriores sao apagadas ao fim de cada execucao completa, depois que o banco ja subiu.",
+    "A opcao \"Definir limite de Temporarios\" saiu. Nao e preciso configurar nada: o cadastro existente se ajusta sozinho na primeira gravacao.",
+    "Extracao dos pacotes ficou mais de duas vezes mais rapida, e o Protheus Data vai direto para a pasta do ambiente em vez de ser copiado depois.",
+    "As pastas do Protheus entram na lista de excecoes do Windows Defender na primeira abertura, o que acelera download e extracao.",
+    "O aviso do \"Executar completo\" ficou curto e com o destaque no botao Nao, para o clique errado custar menos.",
+    "O botao \"Conexoes\" virou \"Configuracoes\", com abas: Conexoes e diretorios, e Atualizacao.",
+    "Verificar atualizacao, ligar ou desligar a automatica e voltar a versao anterior ficam em Configuracoes > Atualizacao.",
+    "A verificacao de versao nova passou a rodar de hora em hora enquanto o programa esta aberto, em silencio.",
+    "O aviso de atualizacao na barra so aparece quando ha algo pendente, e em amarelo."
+  ]
+}
