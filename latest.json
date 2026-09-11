@@ -1,24 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.7.1",
+  "versao": "2.7.2",
   "canal": "estavel",
-  "publicado_em": "2026-09-04T19:55:13Z",
+  "publicado_em": "2026-09-11T19:50:55Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.7.1.zip",
+    "nome": "GerenciadorAmbientes_v2.7.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.7.1/GerenciadorAmbientes_v2.7.1.zip",
-    "sha256": "2144a006724c072b2bec25d9fa87b8c5e9bcb43f614269774c31b3e9facb96fa",
-    "tamanho": 30924756
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.7.2/GerenciadorAmbientes_v2.7.2.zip",
+    "sha256": "352f4536586e6bbe4c0b5a315591448e64c1c29206c953bf3a5d27c4ad0e2878",
+    "tamanho": 30926052
   },
   "changelog": [
-    "Ambiente importado do disco tem o appserver.ini alinhado ao padrao: porta TCP, SpecialKey propria e Windows_x64 na secao certa. Sai um backup datado do arquivo original ao lado.",
-    "O nome do banco e conferido em tres lugares (appserver.ini, DSN ODBC e SQL Server) e alinhado pelo banco que existe no servidor.",
-    "Porta TCP padrao passou a ser 1234. Ambiente ja cadastrado nao e alterado.",
-    "Corrigido: o aviso de atualizacao aparecia sempre no topo, mesmo sem versao nova, e com fonte diferente dos vizinhos.",
-    "Corrigido: o botao \"Sair da fila\" aparecia mesmo com a fila vazia.",
-    "Corrigido: \"Salvar\" e \"Cancelar\" das Configuracoes ficavam colados na borda de baixo da janela."
+    "Ao fechar com ambiente rodando, a pergunta agora tem Sim (encerra e fecha), Nao (fecha e mantem rodando) e Cancelar (segue aberto). Antes so havia OK/Cancelar e o texto prometia um \"Nao\" que nao existia."
   ]
 }
