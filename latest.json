@@ -1,27 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.8.0",
+  "versao": "2.8.1",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T13:07:56Z",
+  "publicado_em": "2026-09-14T14:29:14Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.8.0.zip",
+    "nome": "GerenciadorAmbientes_v2.8.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.0/GerenciadorAmbientes_v2.8.0.zip",
-    "sha256": "632d905f6a169dd6d4eb03e3d00d2bc5214084599012fed5f519a770e9c307f1",
-    "tamanho": 30955092
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.1/GerenciadorAmbientes_v2.8.1.zip",
+    "sha256": "ff0201d81a88683116557d689dcd5605df2d9903df2f7a383e8d16c12a22b9db",
+    "tamanho": 30958106
   },
   "changelog": [
-    "Corrigido: depois de atualizar, o programa reabria com \"Security validation failure: parent process has different executable\" e era preciso abrir de novo a mao.",
-    "Configuracoes > Atualizacao ganhou o botao \"Reiniciar agora\" quando a versao nova ja esta baixada: fecha, aplica e reabre sozinho.",
-    "A copia da versao anterior deixou de aparecer na pasta do programa (ficava um .exe.old ao lado do executavel); agora fica guardada dentro de update/ e continua servindo para o \"Voltar a versao anterior\".",
-    "\"Voltar a versao anterior\" passou a oferecer reiniciar na hora.",
-    "A verificacao de versao nova repete a cada 5 minutos enquanto o programa esta aberto, sem custo: so baixa o manifesto quando ele mudou, e em falha de rede espaca as tentativas ate 1 hora.",
-    "O programa tambem confere as outras ferramentas da mesma pasta (o NebulaTIR): versao nova delas e baixada em espera e entra quando aquele programa abrir. Configuracoes > Atualizacao mostra a situacao de cada uma.",
-    "Corrigido: a atualizacao em espera de uma ferramenta era apagada quando a outra abria na mesma pasta.",
-    "O botao NebulaTIR aparece sempre: sem o NebulaTIR na pasta, vira \"Instalar NebulaTIR\" e baixa a ultima versao da vitrine dele para o lado do Gerenciador.",
-    "NebulaTIR fechado e desatualizado e trocado na hora pelo Gerenciador, sem esperar ele abrir."
+    "Toda abertura verifica se ha versao nova, sem esperar o intervalo; com o automatico ligado, baixa em espera e aplica na proxima abertura.",
+    "Ao abrir com uma atualizacao baixada, uma janelinha mostra o progresso (barra verde e porcentagem) e o programa abre em seguida ja atualizado."
   ]
 }
