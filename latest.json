@@ -1,20 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.8.1",
+  "versao": "2.8.2",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T14:29:14Z",
+  "publicado_em": "2026-09-14T14:53:20Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.8.1.zip",
+    "nome": "GerenciadorAmbientes_v2.8.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.1/GerenciadorAmbientes_v2.8.1.zip",
-    "sha256": "ff0201d81a88683116557d689dcd5605df2d9903df2f7a383e8d16c12a22b9db",
-    "tamanho": 30958106
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.2/GerenciadorAmbientes_v2.8.2.zip",
+    "sha256": "43ff98c3a0e48c00d19900a9e672a0f9731561e04ae237931856e3668e1f0e0b",
+    "tamanho": 30960609
   },
   "changelog": [
-    "Toda abertura verifica se ha versao nova, sem esperar o intervalo; com o automatico ligado, baixa em espera e aplica na proxima abertura.",
-    "Ao abrir com uma atualizacao baixada, uma janelinha mostra o progresso (barra verde e porcentagem) e o programa abre em seguida ja atualizado."
+    "Download da atualizacao (e do \"Instalar NebulaTIR\") tenta de novo em falha do proxy (504) ou queda de conexao, retomando de onde parou."
   ]
 }
