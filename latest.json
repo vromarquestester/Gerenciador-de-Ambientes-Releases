@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.8.2",
+  "versao": "2.8.3",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T14:53:20Z",
+  "publicado_em": "2026-09-15T13:30:28Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.8.2.zip",
+    "nome": "GerenciadorAmbientes_v2.8.3.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.2/GerenciadorAmbientes_v2.8.2.zip",
-    "sha256": "43ff98c3a0e48c00d19900a9e672a0f9731561e04ae237931856e3668e1f0e0b",
-    "tamanho": 30960609
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.3/GerenciadorAmbientes_v2.8.3.zip",
+    "sha256": "169aa36b4f4bca19ef1d443fdad58f82472ddb68796455e7f957754ad4f0059f",
+    "tamanho": 30961108
   },
   "changelog": [
-    "Download da atualizacao (e do \"Instalar NebulaTIR\") tenta de novo em falha do proxy (504) ou queda de conexao, retomando de onde parou."
+    "Aba Sobre em Configurações (versão, pasta, vitrine, última e próxima verificação) com o autor no rodapé; texto do automático fala em 5 minutos"
   ]
 }
