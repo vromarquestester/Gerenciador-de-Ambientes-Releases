@@ -1,19 +1,21 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.8.3",
+  "versao": "2.8.4",
   "canal": "estavel",
-  "publicado_em": "2026-09-15T13:30:28Z",
+  "publicado_em": "2026-09-15T14:13:24Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.8.3.zip",
+    "nome": "GerenciadorAmbientes_v2.8.4.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.3/GerenciadorAmbientes_v2.8.3.zip",
-    "sha256": "169aa36b4f4bca19ef1d443fdad58f82472ddb68796455e7f957754ad4f0059f",
-    "tamanho": 30961108
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.4/GerenciadorAmbientes_v2.8.4.zip",
+    "sha256": "b4f9263b154212ac1ff3bb7545c274d97a18ffa94e0d69798b99dbaa2c1b3b9b",
+    "tamanho": 30964736
   },
   "changelog": [
-    "Aba Sobre em Configurações (versão, pasta, vitrine, última e próxima verificação) com o autor no rodapé; texto do automático fala em 5 minutos"
+    "VPN e SQL conferidos ao abrir e a cada 30 segundos (era 5 minutos na VPN e só ao abrir no SQL); o ping manda 2 pacotes e insiste 3 vezes na abertura, sem janela nenhuma",
+    "O canal do NebulaTIR regrava o registro de sessão se ele sumir e nunca apaga o do Gerenciador seguinte — corrige o NebulaTIR abrindo como \"Gerenciador offline\" com o Gerenciador aberto",
+    "Log em arquivo (logs/gerenciador-AAAAMMDD.log), como o NebulaTIR"
   ]
 }
