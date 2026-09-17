@@ -1,21 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.8.4",
+  "versao": "2.9.0",
   "canal": "estavel",
-  "publicado_em": "2026-09-15T14:13:24Z",
+  "publicado_em": "2026-09-17T20:56:23Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.8.4.zip",
+    "nome": "GerenciadorAmbientes_v2.9.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.8.4/GerenciadorAmbientes_v2.8.4.zip",
-    "sha256": "b4f9263b154212ac1ff3bb7545c274d97a18ffa94e0d69798b99dbaa2c1b3b9b",
-    "tamanho": 30964736
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.9.0/GerenciadorAmbientes_v2.9.0.zip",
+    "sha256": "1c6019c9aadf8b3f07ca257556f19bcbfed30153cd42fa09083e36424365cb70",
+    "tamanho": 30968138
   },
   "changelog": [
-    "VPN e SQL conferidos ao abrir e a cada 30 segundos (era 5 minutos na VPN e só ao abrir no SQL); o ping manda 2 pacotes e insiste 3 vezes na abertura, sem janela nenhuma",
-    "O canal do NebulaTIR regrava o registro de sessão se ele sumir e nunca apaga o do Gerenciador seguinte — corrige o NebulaTIR abrindo como \"Gerenciador offline\" com o Gerenciador aberto",
-    "Log em arquivo (logs/gerenciador-AAAAMMDD.log), como o NebulaTIR"
+    "Só uma janela do Gerenciador por vez: abrir de novo traz a que já está aberta para a frente"
   ]
 }
