@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.9.0",
+  "versao": "2.10.0",
   "canal": "estavel",
-  "publicado_em": "2026-09-17T20:56:23Z",
+  "publicado_em": "2026-09-18T13:30:31Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.9.0.zip",
+    "nome": "GerenciadorAmbientes_v2.10.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.9.0/GerenciadorAmbientes_v2.9.0.zip",
-    "sha256": "1c6019c9aadf8b3f07ca257556f19bcbfed30153cd42fa09083e36424365cb70",
-    "tamanho": 30968138
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.0/GerenciadorAmbientes_v2.10.0.zip",
+    "sha256": "a2b4e6a315eb5c3de1b3b559cc4f954d2c465ae9e5238930928bada696c5ef03",
+    "tamanho": 30969192
   },
   "changelog": [
-    "Só uma janela do Gerenciador por vez: abrir de novo traz a que já está aberta para a frente"
+    "Canal do NebulaTIR: o detalhe do ambiente passa a levar o bloco webapp (versao do webapp.dll exigida pela release, URL do pacote e a instalada), para o NebulaTIR provisionar a DLL certa nas instancias que ele sobe."
   ]
 }
