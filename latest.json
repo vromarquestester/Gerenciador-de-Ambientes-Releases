@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.10.0",
+  "versao": "2.10.1",
   "canal": "estavel",
-  "publicado_em": "2026-09-18T13:30:31Z",
+  "publicado_em": "2026-09-18T19:08:50Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.10.0.zip",
+    "nome": "GerenciadorAmbientes_v2.10.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.0/GerenciadorAmbientes_v2.10.0.zip",
-    "sha256": "a2b4e6a315eb5c3de1b3b559cc4f954d2c465ae9e5238930928bada696c5ef03",
-    "tamanho": 30969192
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.1/GerenciadorAmbientes_v2.10.1.zip",
+    "sha256": "7d6926473095884d846ab1a843e8739d474c54dd237e1af0b8cfc7df982131e3",
+    "tamanho": 30970647
   },
   "changelog": [
-    "Canal do NebulaTIR: o detalhe do ambiente passa a levar o bloco webapp (versao do webapp.dll exigida pela release, URL do pacote e a instalada), para o NebulaTIR provisionar a DLL certa nas instancias que ele sobe."
+    "Remover ambiente apaga a pasta real da instalacao (onde esta o appserver.exe), e nao so <base>\\<ambiente>: os clones do NebulaTIR em NebulaInstancia sobravam no disco."
   ]
 }
