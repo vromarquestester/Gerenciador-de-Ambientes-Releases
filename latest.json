@@ -1,19 +1,22 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.10.1",
+  "versao": "2.10.2",
   "canal": "estavel",
-  "publicado_em": "2026-09-18T19:08:50Z",
+  "publicado_em": "2026-09-23T20:22:14Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.10.1.zip",
+    "nome": "GerenciadorAmbientes_v2.10.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.1/GerenciadorAmbientes_v2.10.1.zip",
-    "sha256": "7d6926473095884d846ab1a843e8739d474c54dd237e1af0b8cfc7df982131e3",
-    "tamanho": 30970647
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.2/GerenciadorAmbientes_v2.10.2.zip",
+    "sha256": "db3772d3df51f761305ad3c5ed4b6cde2df09a7c5669f4f38c0e232ebcbf0f7f",
+    "tamanho": 30972464
   },
   "changelog": [
-    "Remover ambiente apaga a pasta real da instalacao (onde esta o appserver.exe), e nao so <base>\\<ambiente>: os clones do NebulaTIR em NebulaInstancia sobravam no disco."
+    "Novo ambiente pode usar a base MNT (mnt_com_dic): seletor EXP/MNT ao lado do Ambiente troca as URLs do mssql.zip e do protheus_data.zip e o nome do banco/arquivos (ex.: P1212610MNTDBPAR; Brasil P1212610MNTDB). Nome do banco e Porta agora ficam lado a lado.",
+    "Versao 12.1.2210 removida da lista: so 2310 em diante.",
+    "appserver.ini novo sai com SkipSpecialKey=0 e SpecialKey so com pais e versao (ex.: PAR26xx): com a chave por ambiente a base congelada era barrada por \"Libs divergentes\". Ambiente importado tambem e ajustado.",
+    "Windows_x64 do WebAgent e gravado dentro do [WEBAGENT], e nao mais abaixo do bloco ;[ADVPR] comentado."
   ]
 }
