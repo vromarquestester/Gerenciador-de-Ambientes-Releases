@@ -1,22 +1,22 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.10.2",
+  "versao": "2.11.0",
   "canal": "estavel",
-  "publicado_em": "2026-09-23T20:22:14Z",
+  "publicado_em": "2026-09-28T17:47:09Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.10.2.zip",
+    "nome": "GerenciadorAmbientes_v2.11.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.10.2/GerenciadorAmbientes_v2.10.2.zip",
-    "sha256": "db3772d3df51f761305ad3c5ed4b6cde2df09a7c5669f4f38c0e232ebcbf0f7f",
-    "tamanho": 30972464
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.11.0/GerenciadorAmbientes_v2.11.0.zip",
+    "sha256": "4c224bfaf80774461f897aa3c2a224c6660bef5dc09c8b1c1f2e378ae34ecbab",
+    "tamanho": 30980059
   },
   "changelog": [
-    "Novo ambiente pode usar a base MNT (mnt_com_dic): seletor EXP/MNT ao lado do Ambiente troca as URLs do mssql.zip e do protheus_data.zip e o nome do banco/arquivos (ex.: P1212610MNTDBPAR; Brasil P1212610MNTDB). Nome do banco e Porta agora ficam lado a lado.",
-    "Versao 12.1.2210 removida da lista: so 2310 em diante.",
-    "appserver.ini novo sai com SkipSpecialKey=0 e SpecialKey so com pais e versao (ex.: PAR26xx): com a chave por ambiente a base congelada era barrada por \"Libs divergentes\". Ambiente importado tambem e ajustado.",
-    "Windows_x64 do WebAgent e gravado dentro do [WEBAGENT], e nao mais abaixo do bloco ;[ADVPR] comentado."
+    "Novo \"Desenvolvedor?\" em Configuracoes (abaixo do Driver ODBC): mostra o botao Dev Menu na barra superior.",
+    "Dev Menu abre a PAR Congelada e a BOL Congelada no navegador; antes garante o WebAgent 1.1.1 na estacao (usa o .msi da pasta de temporarios ou baixa, e instala sozinho).",
+    "Botoes da barra superior com o mesmo tamanho e rotulo em uma linha so; Conexao virou menu suspenso igual ao Dev Menu, logo apos os chips de status.",
+    "Teclas de midia do teclado (play/pausa, proxima, anterior, stop) voltam a controlar o player (ex.: foobar2000) com o Gerenciador em primeiro plano."
   ]
 }
