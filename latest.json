@@ -1,22 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.11.0",
+  "versao": "2.12.0",
   "canal": "estavel",
-  "publicado_em": "2026-09-28T17:47:09Z",
+  "publicado_em": "2026-09-29T16:16:59Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.11.0.zip",
+    "nome": "GerenciadorAmbientes_v2.12.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.11.0/GerenciadorAmbientes_v2.11.0.zip",
-    "sha256": "4c224bfaf80774461f897aa3c2a224c6660bef5dc09c8b1c1f2e378ae34ecbab",
-    "tamanho": 30980059
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.0/GerenciadorAmbientes_v2.12.0.zip",
+    "sha256": "9f0fac7a413e886eb11d36963f7ca4fcb9849e32bdafd3186ac3221c7bda74f9",
+    "tamanho": 29577480
   },
   "changelog": [
-    "Novo \"Desenvolvedor?\" em Configuracoes (abaixo do Driver ODBC): mostra o botao Dev Menu na barra superior.",
-    "Dev Menu abre a PAR Congelada e a BOL Congelada no navegador; antes garante o WebAgent 1.1.1 na estacao (usa o .msi da pasta de temporarios ou baixa, e instala sozinho).",
-    "Botoes da barra superior com o mesmo tamanho e rotulo em uma linha so; Conexao virou menu suspenso igual ao Dev Menu, logo apos os chips de status.",
-    "Teclas de midia do teclado (play/pausa, proxima, anterior, stop) voltam a controlar o player (ex.: foobar2000) com o Gerenciador em primeiro plano."
+    "Quando a pasta protheus_data do ambiente esta aberta no Explorer, num terminal ou editor, o Executar completo agora avisa qual pasta fechar, em vez de mostrar o erro tecnico \"Acesso negado\"."
   ]
 }
