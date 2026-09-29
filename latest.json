@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.12.0",
+  "versao": "2.12.1",
   "canal": "estavel",
-  "publicado_em": "2026-09-29T16:16:59Z",
+  "publicado_em": "2026-09-29T17:51:32Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.12.0.zip",
+    "nome": "GerenciadorAmbientes_v2.12.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.0/GerenciadorAmbientes_v2.12.0.zip",
-    "sha256": "9f0fac7a413e886eb11d36963f7ca4fcb9849e32bdafd3186ac3221c7bda74f9",
-    "tamanho": 29577480
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.1/GerenciadorAmbientes_v2.12.1.zip",
+    "sha256": "ad31ad32e4d1af9713b5a7c477c3b20bcf5ffb8d6425e4f9d683f9b50a865411",
+    "tamanho": 29578269
   },
   "changelog": [
-    "Quando a pasta protheus_data do ambiente esta aberta no Explorer, num terminal ou editor, o Executar completo agora avisa qual pasta fechar, em vez de mostrar o erro tecnico \"Acesso negado\"."
+    "\"Reiniciar agora\" (Reinicie para atualizar) volta a abrir o programa ja atualizado, em vez de mostrar \"ja esta aberto\"."
   ]
 }
