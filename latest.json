@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.13.0",
+  "versao": "2.13.1",
   "canal": "estavel",
-  "publicado_em": "2026-10-05T14:15:37Z",
+  "publicado_em": "2026-10-05T20:17:18Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.13.0.zip",
+    "nome": "GerenciadorAmbientes_v2.13.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.13.0/GerenciadorAmbientes_v2.13.0.zip",
-    "sha256": "af2f5e3e520749de156b01c65ea29a8968164e0db38d0d965f6df9b7259554a1",
-    "tamanho": 29602818
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.13.1/GerenciadorAmbientes_v2.13.1.zip",
+    "sha256": "0c800d0c9b4d82b51ce35da7b2b1bdfb4bb9edeb7e6a4eaee740aff302c7abb2",
+    "tamanho": 29605553
   },
   "changelog": [
-    "Cada versao passa a ter instalador (GerenciadorAmbientes_Setup.exe) na pagina de downloads; a instalacao recomendada e pelo comando irm do README, que instala em Arquivos de Programas com atalho no menu Iniciar."
+    "Dev Menu: abrir a PAR/BOL Congelada volta a trocar o WebAgent da estacao para o 1.1.1 quando ele ja tinha sido instalado antes por outro arquivo .msi (erro 1706 do Windows Installer); a troca agora leva poucos segundos."
   ]
 }
