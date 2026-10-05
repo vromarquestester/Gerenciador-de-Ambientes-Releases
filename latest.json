@@ -1,19 +1,24 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.12.1",
+  "versao": "2.12.2",
   "canal": "estavel",
-  "publicado_em": "2026-09-29T17:51:32Z",
+  "publicado_em": "2026-10-05T13:22:05Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.12.1.zip",
+    "nome": "GerenciadorAmbientes_v2.12.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.1/GerenciadorAmbientes_v2.12.1.zip",
-    "sha256": "ad31ad32e4d1af9713b5a7c477c3b20bcf5ffb8d6425e4f9d683f9b50a865411",
-    "tamanho": 29578269
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.2/GerenciadorAmbientes_v2.12.2.zip",
+    "sha256": "b09659319b440de02e1719251fc08f8fa5f422e435a48a6e95138260904f1b56",
+    "tamanho": 29599489
   },
   "changelog": [
-    "\"Reiniciar agora\" (Reinicie para atualizar) volta a abrir o programa ja atualizado, em vez de mostrar \"ja esta aberto\"."
+    "Gerar diagnostico passa a trazer os logs da execucao (log e debug), o log do programa e o final do console.log do AppServer e dos logs do DbAccess.",
+    "Instancia nomeada do SQL Server (ex.: MSSQL$TOTVS) em Windows em portugues passa a receber permissao na pasta do ambiente; o anexo do banco nao falha mais com erro 5120 (acesso negado ao MDF).",
+    "Retencao do temp por ambiente de volta: \"Bases anteriores\" (0 a 60) guarda, alem da base atual, as ultimas baixadas; \"Backup de uma base\" (0, 15 ou 30 dias) guarda mais uma base ate completar esse prazo.",
+    "Tela de edicao do ambiente ganhou o botao Aplicar: grava as alteracoes sem fechar a tela.",
+    "Editar uma instancia criada pelo NebulaTIR nao perde mais o vinculo com o temp do ambiente-pai.",
+    "O botao do NebulaTIR saiu da barra superior e passou para o Dev Menu (aparece com \"Desenvolvedor?\" marcado em Configuracoes), com as mesmas funcoes: abre o NebulaTIR ou, se ele nao estiver na pasta, oferece instalar."
   ]
 }
