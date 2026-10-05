@@ -1,24 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.12.2",
+  "versao": "2.13.0",
   "canal": "estavel",
-  "publicado_em": "2026-10-05T13:22:05Z",
+  "publicado_em": "2026-10-05T14:15:37Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.12.2.zip",
+    "nome": "GerenciadorAmbientes_v2.13.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.12.2/GerenciadorAmbientes_v2.12.2.zip",
-    "sha256": "b09659319b440de02e1719251fc08f8fa5f422e435a48a6e95138260904f1b56",
-    "tamanho": 29599489
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.13.0/GerenciadorAmbientes_v2.13.0.zip",
+    "sha256": "af2f5e3e520749de156b01c65ea29a8968164e0db38d0d965f6df9b7259554a1",
+    "tamanho": 29602818
   },
   "changelog": [
-    "Gerar diagnostico passa a trazer os logs da execucao (log e debug), o log do programa e o final do console.log do AppServer e dos logs do DbAccess.",
-    "Instancia nomeada do SQL Server (ex.: MSSQL$TOTVS) em Windows em portugues passa a receber permissao na pasta do ambiente; o anexo do banco nao falha mais com erro 5120 (acesso negado ao MDF).",
-    "Retencao do temp por ambiente de volta: \"Bases anteriores\" (0 a 60) guarda, alem da base atual, as ultimas baixadas; \"Backup de uma base\" (0, 15 ou 30 dias) guarda mais uma base ate completar esse prazo.",
-    "Tela de edicao do ambiente ganhou o botao Aplicar: grava as alteracoes sem fechar a tela.",
-    "Editar uma instancia criada pelo NebulaTIR nao perde mais o vinculo com o temp do ambiente-pai.",
-    "O botao do NebulaTIR saiu da barra superior e passou para o Dev Menu (aparece com \"Desenvolvedor?\" marcado em Configuracoes), com as mesmas funcoes: abre o NebulaTIR ou, se ele nao estiver na pasta, oferece instalar."
+    "Cada versao passa a ter instalador (GerenciadorAmbientes_Setup.exe) na pagina de downloads; a instalacao recomendada e pelo comando irm do README, que instala em Arquivos de Programas com atalho no menu Iniciar."
   ]
 }
