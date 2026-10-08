@@ -1,19 +1,24 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.13.1",
+  "versao": "2.14.0",
   "canal": "estavel",
-  "publicado_em": "2026-10-05T20:17:18Z",
+  "publicado_em": "2026-10-08T18:13:26Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.13.1.zip",
+    "nome": "GerenciadorAmbientes_v2.14.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.13.1/GerenciadorAmbientes_v2.13.1.zip",
-    "sha256": "0c800d0c9b4d82b51ce35da7b2b1bdfb4bb9edeb7e6a4eaee740aff302c7abb2",
-    "tamanho": 29605553
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.0/GerenciadorAmbientes_v2.14.0.zip",
+    "sha256": "0542e0e30f10f6f65919263b8f61c76d270bce186c80edcb0b6a35a385ef69a0",
+    "tamanho": 29675104
   },
   "changelog": [
-    "Dev Menu: abrir a PAR/BOL Congelada volta a trocar o WebAgent da estacao para o 1.1.1 quando ele ja tinha sido instalado antes por outro arquivo .msi (erro 1706 do Windows Installer); a troca agora leva poucos segundos."
+    "A versao mostrada em Configuracoes > Aplicativos instalados do Windows passa a acompanhar a atualizacao automatica (antes ficava na versao da instalacao).",
+    "Computador sem SQL Server: o Gerenciador avisa (chip SQL: nao detectado) e instala sozinho o SQL Server 2025 Standard Developer, ja configurado para o Protheus (usuario sa, autenticacao SQL, collation Latin1_General_BIN, driver ODBC 17), e cadastra a conexao. Modo padrao ou personalizado; andamento no painel lateral.",
+    "Depois de trocar a versao do WebAgent (subir um ambiente 2510/2610 ou abrir uma base congelada), o Gerenciador abre o agente sozinho se ele ficou fechado, conferindo a porta do [WEBAGENT] Port do appserver.ini. Nao e mais preciso abrir o web-agent.exe a mao. O Gerar diagnostico passa a mostrar o estado do agente.",
+    "Ambiente cujo DSN ODBC apontava para outro SQL Server (por exemplo, depois de trocar uma instancia nomeada pela padrao) nao conectava: o DbAccess dava \"Error Locating Server/Instance Specified\" e o AppServer -35. O Executar completo agora corrige o servidor do DSN.",
+    "Computador sem a VPN da Cisco: o Gerenciador avisa (chip VPN: Cisco nao instalado) e instala o Cisco Secure Client 5.1.2.42 com os modulos ISE, conferindo SHA-256 e assinatura da Cisco de cada instalador, e deixa o servidor vpn.totvs.com.br pronto para Conectar, com \"Bloquear conexoes com servidores nao confiaveis\" desmarcado (marcado, a VPN nao conecta). Sem SQL Server e sem Cisco, um botao so instala os dois, primeiro o SQL (fora da VPN) e depois o Cisco.",
+    "Passe o mouse sobre o cronometro do painel de execucao para ver quanto tempo levou cada etapa. Cada execucao (completa, banco, RPO, instalacao do SQL Server e do Cisco) fica registrada no historico local e e enviada, de forma anonima (sem nome do computador ou usuario), para a planilha de estatisticas de tempo da equipe. O envio pode ser desligado em Configuracoes."
   ]
 }
