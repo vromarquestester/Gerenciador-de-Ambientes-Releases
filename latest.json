@@ -1,24 +1,23 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.14.0",
+  "versao": "2.14.1",
   "canal": "estavel",
-  "publicado_em": "2026-10-08T18:13:26Z",
+  "publicado_em": "2026-10-09T18:53:55Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.14.0.zip",
+    "nome": "GerenciadorAmbientes_v2.14.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.0/GerenciadorAmbientes_v2.14.0.zip",
-    "sha256": "0542e0e30f10f6f65919263b8f61c76d270bce186c80edcb0b6a35a385ef69a0",
-    "tamanho": 29675104
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.1/GerenciadorAmbientes_v2.14.1.zip",
+    "sha256": "50d1575cf48d3a92e1820a91d1b02a45cd0d07adeeb90d3c3cfd1ba559cffae5",
+    "tamanho": 29695475
   },
   "changelog": [
-    "A versao mostrada em Configuracoes > Aplicativos instalados do Windows passa a acompanhar a atualizacao automatica (antes ficava na versao da instalacao).",
-    "Computador sem SQL Server: o Gerenciador avisa (chip SQL: nao detectado) e instala sozinho o SQL Server 2025 Standard Developer, ja configurado para o Protheus (usuario sa, autenticacao SQL, collation Latin1_General_BIN, driver ODBC 17), e cadastra a conexao. Modo padrao ou personalizado; andamento no painel lateral.",
-    "Depois de trocar a versao do WebAgent (subir um ambiente 2510/2610 ou abrir uma base congelada), o Gerenciador abre o agente sozinho se ele ficou fechado, conferindo a porta do [WEBAGENT] Port do appserver.ini. Nao e mais preciso abrir o web-agent.exe a mao. O Gerar diagnostico passa a mostrar o estado do agente.",
-    "Ambiente cujo DSN ODBC apontava para outro SQL Server (por exemplo, depois de trocar uma instancia nomeada pela padrao) nao conectava: o DbAccess dava \"Error Locating Server/Instance Specified\" e o AppServer -35. O Executar completo agora corrige o servidor do DSN.",
-    "Computador sem a VPN da Cisco: o Gerenciador avisa (chip VPN: Cisco nao instalado) e instala o Cisco Secure Client 5.1.2.42 com os modulos ISE, conferindo SHA-256 e assinatura da Cisco de cada instalador, e deixa o servidor vpn.totvs.com.br pronto para Conectar, com \"Bloquear conexoes com servidores nao confiaveis\" desmarcado (marcado, a VPN nao conecta). Sem SQL Server e sem Cisco, um botao so instala os dois, primeiro o SQL (fora da VPN) e depois o Cisco.",
-    "Passe o mouse sobre o cronometro do painel de execucao para ver quanto tempo levou cada etapa. Cada execucao (completa, banco, RPO, instalacao do SQL Server e do Cisco) fica registrada no historico local e e enviada, de forma anonima (sem nome do computador ou usuario), para a planilha de estatisticas de tempo da equipe. O envio pode ser desligado em Configuracoes."
+    "Instalar SQL Server passa a instalar o SQL Server 2022 Developer (gratuito para desenvolvimento), a versao que a equipe usa. Com o 2025 a base PAR 12.1.2510 nao iniciava o ambiente (REST could not be initialized / Fail to start environment). A instalacao agora garante os dois drivers: ODBC Driver 17 e SQL Server 2012 Native Client (11.0).",
+    "O chip da VPN deixou de depender do ping em 10.171.59.14, que parou de responder. Agora o Gerenciador confere a cada 5 segundos, sem abrir janela, se o adaptador da Cisco esta conectado com IP e se o servidor arte.engpro.totvs.com.br responde. Com a VPN conectada mas a rede ainda bloqueada pelo ISE, o chip mostra \"VPN: aguardando liberacao do ISE\" em vez de \"offline\" (reconecte a VPN se demorar).",
+    "Novo em Configuracoes: \"Arte sem VPN\". Ligada a opcao e informados usuario e senha do arte (o login sem @totvs.com.br, o mesmo que o navegador pede), os downloads seguem pelo arte na internet quando a VPN esta desconectada; desligada, tudo passa pela VPN como antes. A senha fica no Gerenciador de Credenciais do Windows, nunca no arquivo de configuracao. O botao Testar acesso confere as credenciais, e o chip mostra \"VPN: offline - arte pela internet\".",
+    "Dicas ao parar o mouse sobre botoes e campos (como no NebulaTIR), no tema do programa, visiveis por pelo menos 4 segundos.",
+    "Backup de uma base: agora com 7, 15 ou 30 dias, e guardado fora do ambiente, em Backup_bases\\<Pais>\\<versao>\\<EXP|MNT>\\<data> dentro da base de instalacao (ex.: C:\\TOTVS\\Backup_bases\\Paraguay\\2510\\EXP). O backup leva a base, o RPO e o protheus_data, e e o mesmo para todo ambiente do mesmo pais, versao e tipo, ja que o nome do ambiente muda de computador para computador."
   ]
 }
