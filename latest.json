@@ -1,23 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.14.1",
+  "versao": "2.14.2",
   "canal": "estavel",
-  "publicado_em": "2026-10-09T18:53:55Z",
+  "publicado_em": "2026-10-13T20:31:10Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.14.1.zip",
+    "nome": "GerenciadorAmbientes_v2.14.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.1/GerenciadorAmbientes_v2.14.1.zip",
-    "sha256": "50d1575cf48d3a92e1820a91d1b02a45cd0d07adeeb90d3c3cfd1ba559cffae5",
-    "tamanho": 29695475
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.2/GerenciadorAmbientes_v2.14.2.zip",
+    "sha256": "e90692f2e960f523b23c2ef274b0a944ef69fb6bb0ca6af6906a7f08cf2cd9fc",
+    "tamanho": 41095825
   },
   "changelog": [
-    "Instalar SQL Server passa a instalar o SQL Server 2022 Developer (gratuito para desenvolvimento), a versao que a equipe usa. Com o 2025 a base PAR 12.1.2510 nao iniciava o ambiente (REST could not be initialized / Fail to start environment). A instalacao agora garante os dois drivers: ODBC Driver 17 e SQL Server 2012 Native Client (11.0).",
-    "O chip da VPN deixou de depender do ping em 10.171.59.14, que parou de responder. Agora o Gerenciador confere a cada 5 segundos, sem abrir janela, se o adaptador da Cisco esta conectado com IP e se o servidor arte.engpro.totvs.com.br responde. Com a VPN conectada mas a rede ainda bloqueada pelo ISE, o chip mostra \"VPN: aguardando liberacao do ISE\" em vez de \"offline\" (reconecte a VPN se demorar).",
-    "Novo em Configuracoes: \"Arte sem VPN\". Ligada a opcao e informados usuario e senha do arte (o login sem @totvs.com.br, o mesmo que o navegador pede), os downloads seguem pelo arte na internet quando a VPN esta desconectada; desligada, tudo passa pela VPN como antes. A senha fica no Gerenciador de Credenciais do Windows, nunca no arquivo de configuracao. O botao Testar acesso confere as credenciais, e o chip mostra \"VPN: offline - arte pela internet\".",
-    "Dicas ao parar o mouse sobre botoes e campos (como no NebulaTIR), no tema do programa, visiveis por pelo menos 4 segundos.",
-    "Backup de uma base: agora com 7, 15 ou 30 dias, e guardado fora do ambiente, em Backup_bases\\<Pais>\\<versao>\\<EXP|MNT>\\<data> dentro da base de instalacao (ex.: C:\\TOTVS\\Backup_bases\\Paraguay\\2510\\EXP). O backup leva a base, o RPO e o protheus_data, e e o mesmo para todo ambiente do mesmo pais, versao e tipo, ja que o nome do ambiente muda de computador para computador."
+    "Novo no Dev Menu: Kanoah, um gravador de passos para montar o caso de teste. Escolha o ambiente (no ar), o programa inicial e o caso (ex.: CT001) e clique em Abrir navegador e gravar: o WebApp abre e o Gerenciador grava menus, janelas, botoes e cada campo preenchido com rotulo, nome tecnico e valor. No Log Off (ou ao fechar o navegador) saem dois arquivos em UTF-8 em protheus_data\\kanoah: <caso>_kanoah.txt, com a pre-condicao no padrao do Kanoah (Base de datos, um bloco por rotina como \"MATA020 - Proveedores\" e cada campo como Titulo (CAMPO) = valor, uma linha em branco entre rotinas), e <caso>_detalle.txt, com os passos e o que mudou no banco, para a documentacao do TDN. Marcando \"Incluir os dados gravados no banco\", o valor escolhido na consulta padrao (F3) e completado pelo que foi gravado. Precisa do Firefox (ou Edge) instalado."
   ]
 }
