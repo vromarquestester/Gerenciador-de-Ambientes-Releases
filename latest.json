@@ -1,19 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.14.3",
+  "versao": "2.15.0",
   "canal": "estavel",
-  "publicado_em": "2026-10-16T14:20:18Z",
+  "publicado_em": "2026-10-16T15:26:17Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.14.3.zip",
+    "nome": "GerenciadorAmbientes_v2.15.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.3/GerenciadorAmbientes_v2.14.3.zip",
-    "sha256": "8efdcc0c791c9da11719efe31741c7a8254d56312b358ca4ac67597b94af9d07",
-    "tamanho": 41099651
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.0/GerenciadorAmbientes_v2.15.0.zip",
+    "sha256": "35372fcf801efba5c9f872a681b0e08796428ab7a3d18121f422f8d97d439e5d",
+    "tamanho": 41100855
   },
   "changelog": [
-    "Corrigido o bloqueio \"Libs divergentes\" ao entrar no ambiente: a SpecialKey do appserver.ini deixou de ser a mesma da equipe inteira (PAR25xx) e passou a ter um codigo desta maquina e o nome do ambiente (ex.: PAR25XX_WKX). Ambientes ja cadastrados sao corrigidos sozinhos ao Subir, com backup do appserver.ini; uma SpecialKey propria, fora desse formato, nao e alterada."
+    "Configuracoes > Conexoes e diretorios: novo campo \"Identificacao deste computador\", logo abaixo de Enviar estatisticas de tempo. E o nome com que este computador aparece no relatorio de desempenho das etapas do Gerenciador, para achar onde ele pode ficar mais rapido e ajudar quem estiver com tempos maiores ou com erro. Os campos dessa tela ganharam dicas ao passar o mouse.",
+    "Enquanto a identificacao deste computador estiver vazia, o Gerenciador abre as Configuracoes ao iniciar pedindo o nome, e os tempos das execucoes ficam guardados neste computador ate ele ser informado. Ao salvar o nome, os registros que ja apareciam como \"Computador N\" no relatorio passam a mostrar o nome informado."
   ]
 }
