@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.14.2",
+  "versao": "2.14.3",
   "canal": "estavel",
-  "publicado_em": "2026-10-13T20:31:10Z",
+  "publicado_em": "2026-10-16T14:20:18Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.14.2.zip",
+    "nome": "GerenciadorAmbientes_v2.14.3.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.2/GerenciadorAmbientes_v2.14.2.zip",
-    "sha256": "e90692f2e960f523b23c2ef274b0a944ef69fb6bb0ca6af6906a7f08cf2cd9fc",
-    "tamanho": 41095825
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.14.3/GerenciadorAmbientes_v2.14.3.zip",
+    "sha256": "8efdcc0c791c9da11719efe31741c7a8254d56312b358ca4ac67597b94af9d07",
+    "tamanho": 41099651
   },
   "changelog": [
-    "Novo no Dev Menu: Kanoah, um gravador de passos para montar o caso de teste. Escolha o ambiente (no ar), o programa inicial e o caso (ex.: CT001) e clique em Abrir navegador e gravar: o WebApp abre e o Gerenciador grava menus, janelas, botoes e cada campo preenchido com rotulo, nome tecnico e valor. No Log Off (ou ao fechar o navegador) saem dois arquivos em UTF-8 em protheus_data\\kanoah: <caso>_kanoah.txt, com a pre-condicao no padrao do Kanoah (Base de datos, um bloco por rotina como \"MATA020 - Proveedores\" e cada campo como Titulo (CAMPO) = valor, uma linha em branco entre rotinas), e <caso>_detalle.txt, com os passos e o que mudou no banco, para a documentacao do TDN. Marcando \"Incluir os dados gravados no banco\", o valor escolhido na consulta padrao (F3) e completado pelo que foi gravado. Precisa do Firefox (ou Edge) instalado."
+    "Corrigido o bloqueio \"Libs divergentes\" ao entrar no ambiente: a SpecialKey do appserver.ini deixou de ser a mesma da equipe inteira (PAR25xx) e passou a ter um codigo desta maquina e o nome do ambiente (ex.: PAR25XX_WKX). Ambientes ja cadastrados sao corrigidos sozinhos ao Subir, com backup do appserver.ini; uma SpecialKey propria, fora desse formato, nao e alterada."
   ]
 }
