@@ -1,20 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.1",
+  "versao": "2.15.2",
   "canal": "estavel",
-  "publicado_em": "2026-10-19T12:29:37Z",
+  "publicado_em": "2026-10-19T12:41:49Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.1.zip",
+    "nome": "GerenciadorAmbientes_v2.15.2.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.1/GerenciadorAmbientes_v2.15.1.zip",
-    "sha256": "dc737969ecaecc442f13d077327285014bf1d26e331f903a0b133dd0d5de9518",
-    "tamanho": 41102988
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.2/GerenciadorAmbientes_v2.15.2.zip",
+    "sha256": "01314617eef828e9062fd12cff103116add2d2994c6788b2f3a259ee275d3d1a",
+    "tamanho": 41103046
   },
   "changelog": [
-    "Kanoah: a gravacao sai em KANOAH\\<issue> na pasta das instalacoes (ex.: C:\\TOTVS\\KANOAH\\DRHPATMI-14), fora do protheus_data, que o Executar completo apaga; a issue e obrigatoria na telinha.",
-    "Kanoah: o navegador da gravacao abre sempre maximizado."
+    "Configuracoes: o campo Identificacao deste computador ficou so com o nome, sem dica nem texto de apoio; o aviso da abertura pede apenas o preenchimento para continuar."
   ]
 }
