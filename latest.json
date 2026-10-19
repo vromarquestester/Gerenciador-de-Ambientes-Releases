@@ -1,20 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.0",
+  "versao": "2.15.1",
   "canal": "estavel",
-  "publicado_em": "2026-10-16T15:26:17Z",
+  "publicado_em": "2026-10-19T12:29:37Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.0.zip",
+    "nome": "GerenciadorAmbientes_v2.15.1.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.0/GerenciadorAmbientes_v2.15.0.zip",
-    "sha256": "35372fcf801efba5c9f872a681b0e08796428ab7a3d18121f422f8d97d439e5d",
-    "tamanho": 41100855
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.1/GerenciadorAmbientes_v2.15.1.zip",
+    "sha256": "dc737969ecaecc442f13d077327285014bf1d26e331f903a0b133dd0d5de9518",
+    "tamanho": 41102988
   },
   "changelog": [
-    "Configuracoes > Conexoes e diretorios: novo campo \"Identificacao deste computador\", logo abaixo de Enviar estatisticas de tempo. E o nome com que este computador aparece no relatorio de desempenho das etapas do Gerenciador, para achar onde ele pode ficar mais rapido e ajudar quem estiver com tempos maiores ou com erro. Os campos dessa tela ganharam dicas ao passar o mouse.",
-    "Enquanto a identificacao deste computador estiver vazia, o Gerenciador abre as Configuracoes ao iniciar pedindo o nome, e os tempos das execucoes ficam guardados neste computador ate ele ser informado. Ao salvar o nome, os registros que ja apareciam como \"Computador N\" no relatorio passam a mostrar o nome informado."
+    "Kanoah: a gravacao sai em KANOAH\\<issue> na pasta das instalacoes (ex.: C:\\TOTVS\\KANOAH\\DRHPATMI-14), fora do protheus_data, que o Executar completo apaga; a issue e obrigatoria na telinha.",
+    "Kanoah: o navegador da gravacao abre sempre maximizado."
   ]
 }
