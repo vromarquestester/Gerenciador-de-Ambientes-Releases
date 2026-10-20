@@ -1,17 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.3",
+  "versao": "2.15.4",
   "canal": "estavel",
-  "publicado_em": "2026-10-20T10:59:28Z",
+  "publicado_em": "2026-10-20T14:42:40Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.3.zip",
+    "nome": "GerenciadorAmbientes_v2.15.4.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.3/GerenciadorAmbientes_v2.15.3.zip",
-    "sha256": "74d224642ebaa711f8436480f766974ea0419edd9be611da18c29a8fed43c7c4",
-    "tamanho": 41174018
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.4/GerenciadorAmbientes_v2.15.4.zip",
+    "sha256": "920ecda98d641fbe992ffbcedc303aebe2dc0184eaf37bfaca0cfc66ce91f09f",
+    "tamanho": 41183279
   },
-  "changelog": []
+  "changelog": [
+    "Dev Menu: novo submenu WebAgent com as versoes 1.0.22 a 1.1.2; a escolhida e baixada do arte e instalada de forma limpa (remove o agente atual, os restos no registro, pastas e atalhos)."
+  ]
 }
