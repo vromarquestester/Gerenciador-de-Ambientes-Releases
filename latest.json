@@ -1,19 +1,17 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.2",
+  "versao": "2.15.3",
   "canal": "estavel",
-  "publicado_em": "2026-10-19T12:41:49Z",
+  "publicado_em": "2026-10-20T10:59:28Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.2.zip",
+    "nome": "GerenciadorAmbientes_v2.15.3.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.2/GerenciadorAmbientes_v2.15.2.zip",
-    "sha256": "01314617eef828e9062fd12cff103116add2d2994c6788b2f3a259ee275d3d1a",
-    "tamanho": 41103046
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.3/GerenciadorAmbientes_v2.15.3.zip",
+    "sha256": "74d224642ebaa711f8436480f766974ea0419edd9be611da18c29a8fed43c7c4",
+    "tamanho": 41174018
   },
-  "changelog": [
-    "Configuracoes: o campo Identificacao deste computador ficou so com o nome, sem dica nem texto de apoio; o aviso da abertura pede apenas o preenchimento para continuar."
-  ]
+  "changelog": []
 }
