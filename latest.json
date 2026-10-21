@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.4",
+  "versao": "2.15.5",
   "canal": "estavel",
-  "publicado_em": "2026-10-20T14:42:40Z",
+  "publicado_em": "2026-10-21T11:32:04Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.4.zip",
+    "nome": "GerenciadorAmbientes_v2.15.5.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.4/GerenciadorAmbientes_v2.15.4.zip",
-    "sha256": "920ecda98d641fbe992ffbcedc303aebe2dc0184eaf37bfaca0cfc66ce91f09f",
-    "tamanho": 41183279
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.5/GerenciadorAmbientes_v2.15.5.zip",
+    "sha256": "3f655c8c563cd4bdfaa650c94b389ed94390319459f5a9efd5c341ec5447085a",
+    "tamanho": 41184159
   },
   "changelog": [
-    "Dev Menu: novo submenu WebAgent com as versoes 1.0.22 a 1.1.2; a escolhida e baixada do arte e instalada de forma limpa (remove o agente atual, os restos no registro, pastas e atalhos)."
+    "2610: binarios atualizados para os recomendados pelo alerta de versoes do Protheus: AppServer 26.3.0.0_ts15, DBAccess 26.1.0.0_ts07 (build 20261006) e WebApp 26.0.0-TS12."
   ]
 }
