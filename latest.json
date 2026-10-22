@@ -1,19 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.5",
+  "versao": "2.15.6",
   "canal": "estavel",
-  "publicado_em": "2026-10-21T11:32:04Z",
+  "publicado_em": "2026-10-22T12:29:03Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.5.zip",
+    "nome": "GerenciadorAmbientes_v2.15.6.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.5/GerenciadorAmbientes_v2.15.5.zip",
-    "sha256": "3f655c8c563cd4bdfaa650c94b389ed94390319459f5a9efd5c341ec5447085a",
-    "tamanho": 41184159
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.6/GerenciadorAmbientes_v2.15.6.zip",
+    "sha256": "28fbb7755da8b1cb949c88995f9c2f8bcd21cce79aa2040a598825fbff898c71",
+    "tamanho": 41187818
   },
   "changelog": [
-    "2610: binarios atualizados para os recomendados pelo alerta de versoes do Protheus: AppServer 26.3.0.0_ts15, DBAccess 26.1.0.0_ts07 (build 20261006) e WebApp 26.0.0-TS12."
+    "Nova opcao em Configuracoes: \"Banco de dados na pasta do ambiente\". Ligada, o cadastro de ambiente ganha o campo Pasta do banco (com o botao de pasta), preenchido ao digitar o nome com a pasta MSSQL do ambiente (ex.: C:\\TOTVS\\BOL_2610\\MSSQL); o MDF/LDF passa a ficar ali em vez da pasta de temporarios. Desligada (padrao), nada muda.",
+    "Dicas ao passar o mouse em todos os campos e botoes das Configuracoes (abas Conexoes, Atualizacao e Sobre)."
   ]
 }
