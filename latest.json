@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.15.7",
+  "versao": "2.16.0",
   "canal": "estavel",
-  "publicado_em": "2026-11-26T16:30:37Z",
+  "publicado_em": "2026-11-26T20:11:25Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.15.7.zip",
+    "nome": "GerenciadorAmbientes_v2.16.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.15.7/GerenciadorAmbientes_v2.15.7.zip",
-    "sha256": "04497ed41562e692d6d3ab24918b44aedcaac8906893f6ff0ca6b196358ff239",
-    "tamanho": 41197015
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.16.0/GerenciadorAmbientes_v2.16.0.zip",
+    "sha256": "f9a72071283f070898f68b7797e3b887380f71f447a387fcc281da447ac41f8f",
+    "tamanho": 41199348
   },
   "changelog": [
-    "Ambiente do Brasil (2310, 2410 e 2510) ganha a opcao Binarios no cadastro: Compativel (padrao, AppServer 24.3.1.10, WebApp 10.2.5 e WebAgent 1.1.2, exigidos pela lib 20261123) ou Ultima (os mais novos publicados no arte, sem sair da familia da versao). O Executar completo troca o AppServer, o WebApp e o WebAgent do ambiente quando a versao instalada for outra, e ao subir a estacao recebe o WebAgent dessa opcao; o DbAccess nao muda."
+    "Opcao Binarios do cadastro agora e Padrao ou Legacy, e vale para Brasil, Bolivia e Paraguai (2310, 2410 e 2510). Padrao e o principal: AppServer 24.3.1.10, WebApp 10.2.5 e WebAgent 1.1.2. Legacy volta aos binarios de antes (AppServer 24.3.1.5, WebApp 10.1.8 e WebAgent 1.0.25) no proximo Executar completo, para ambiente cuja lib ainda nao foi atualizada. A opcao Ultima saiu; ambiente que estava em Compativel ou Ultima fica em Padrao."
   ]
 }
