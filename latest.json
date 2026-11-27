@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Gerenciador de Ambientes",
-  "versao": "2.16.0",
+  "versao": "2.17.0",
   "canal": "estavel",
-  "publicado_em": "2026-11-26T20:11:25Z",
+  "publicado_em": "2026-11-27T14:52:09Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "GerenciadorAmbientes_v2.16.0.zip",
+    "nome": "GerenciadorAmbientes_v2.17.0.zip",
     "exe": "GerenciadorAmbientes.exe",
-    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.16.0/GerenciadorAmbientes_v2.16.0.zip",
-    "sha256": "f9a72071283f070898f68b7797e3b887380f71f447a387fcc281da447ac41f8f",
-    "tamanho": 41199348
+    "url": "https://github.com/vromarquestester/Gerenciador-de-Ambientes-Releases/releases/download/v2.17.0/GerenciadorAmbientes_v2.17.0.zip",
+    "sha256": "c7ec6a8ab379a9bd7fc1b3f006de0e91b5c0d12cf335528563f4a19ef5241f75",
+    "tamanho": 41194880
   },
   "changelog": [
-    "Opcao Binarios do cadastro agora e Padrao ou Legacy, e vale para Brasil, Bolivia e Paraguai (2310, 2410 e 2510). Padrao e o principal: AppServer 24.3.1.10, WebApp 10.2.5 e WebAgent 1.1.2. Legacy volta aos binarios de antes (AppServer 24.3.1.5, WebApp 10.1.8 e WebAgent 1.0.25) no proximo Executar completo, para ambiente cuja lib ainda nao foi atualizada. A opcao Ultima saiu; ambiente que estava em Compativel ou Ultima fica em Padrao."
+    "2510 em todos os paises passa a usar AppServer 24.3.1.10, WebApp 10.2.5 e WebAgent 1.1.2; 2610 passa a usar AppServer 26.3.0.2 e WebApp 26.0.1 (exigidos pela lib 20261123). O Executar completo troca os binarios dos ambientes existentes. A opcao Padrao/Legacy do cadastro saiu; 2310 e 2410 voltam aos binarios antigos."
   ]
 }
